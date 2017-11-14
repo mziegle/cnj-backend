@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hm-ziegler0-cnj
+---
+spring:
+  profiles: dev, cloud
+  cloud:
+    config:
+     uri: https://hm-ziegler0-config-server.cfapps.io
